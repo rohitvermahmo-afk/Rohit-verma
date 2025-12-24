@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shree Laddu Gopal Kiryana Store</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#f7f7f7; }
+    header { background:#2e7d32; color:white; padding:20px; text-align:center; }
+    .container { padding:20px; max-width:1100px; margin:auto; }
+    h2 { color:#2e7d32; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:20px; }
+    .card { background:white; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); padding:15px; text-align:center; }
+    .card img { width:100%; height:150px; object-fit:cover; border-radius:8px; }
+    footer { background:#333; color:white; text-align:center; padding:15px; margin-top:30px; }
+    .map { margin-top:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shree Laddu Gopal Kiryana Store</h1>
+  <p>Sahjipura, Rajasthan 335801</p>
+  <p>Daily Needs • Grocery • Kiryana</p>
+</header>
+
+<div class="container">
+  <h2>About Us</h2>
+  <p>We provide fresh and quality grocery and kiryana items at affordable prices for our local community in Sahjipura. Your trusted neighborhood store for everyday essentials.</p>
+
+  <h2>Our Items</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" alt="Rice & Wheat" />
+      <h3>Rice & Wheat</h3>
+      <p>Basmati rice, wheat flour, atta</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38" alt="Pulses" />
+      <h3>Pulses & Dal</h3>
+      <p>Moong, Toor, Chana, Masoor</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1627485937980-221c88ac04a6" alt="Spices" />
+      <h3>Spices</h3>
+      <p>Haldi, Mirchi, Dhaniya, Garam Masala</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e" alt="Oil" />
+      <h3>Cooking Oil</h3>
+      <p>Mustard oil, refined oil</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c" alt="Snacks" />
+      <h3>Snacks & Biscuits</h3>
+      <p>Namkeen, biscuits, chips</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1615485737457-f07082c77813" alt="Daily Use" />
+      <h3>Daily Use Items</h3>
+      <p>Soap, shampoo, detergent</p>
+    </div>
+  </div>
+
+  <h2>Location</h2>
+  <p>Find us easily on Google Maps:</p>
+  <div class="map">
+    <iframe src="https://www.google.com/maps?q=Sahjipura%20Rajasthan%20335801&output=embed" width="100%" height="300" style="border:0;" loading="lazy"></iframe>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Shree Laddu Gopal Kiryana Store</p>
+  <p>Open Daily | Contact: +91-XXXXXXXXXX</p>
+</footer>
+
+</body>
+</html>
